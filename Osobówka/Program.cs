@@ -16,7 +16,15 @@ namespace Osobówka
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            
+            Run();
+        }
+
+        private static void Run()
+        {
+            var mainPanel = new MainViewController();
+
+            Application.Run(new Form1(mainPanel));
         }
     }
 }

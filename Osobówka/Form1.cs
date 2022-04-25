@@ -12,9 +12,13 @@ namespace Osobówka
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        public Form1(Control mainPanel)
         {
             InitializeComponent();
+
+            mainPanel.Dock = DockStyle.Fill;
+            Controls.Add(mainPanel);
         }
     }
+    
 }

@@ -1,13 +1,15 @@
-﻿namespace Osobówka
+﻿using System.ComponentModel;
+
+namespace Osobówka
 {
-    partial class Form1
+    partial class MainViewController
     {
-        /// <summary>
+        /// <summary> 
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
-        /// <summary>
+        /// <summary> 
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -21,7 +23,7 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Component Designer generated code
 
         /// <summary>
         /// Required method for Designer support - do not modify
@@ -31,13 +33,12 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // MainViewController
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(685, 339);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainViewController";
+            this.Size = new System.Drawing.Size(549, 309);
             this.ResumeLayout(false);
         }
 
