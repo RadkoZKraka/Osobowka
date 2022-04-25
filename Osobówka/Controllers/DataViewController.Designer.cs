@@ -31,28 +31,31 @@ namespace Osobówka
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.dataGrid1 = new System.Windows.Forms.DataGrid();
+            ((System.ComponentModel.ISupportInitialize) (this.dataGrid1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // dataGrid1
             // 
-            this.label1.Location = new System.Drawing.Point(139, 85);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(274, 149);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.dataGrid1.DataMember = "";
+            this.dataGrid1.HeaderForeColor = System.Drawing.SystemColors.ControlText;
+            this.dataGrid1.Location = new System.Drawing.Point(14, 20);
+            this.dataGrid1.Name = "dataGrid1";
+            this.dataGrid1.Size = new System.Drawing.Size(361, 234);
+            this.dataGrid1.TabIndex = 0;
             // 
             // DataViewController
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dataGrid1);
             this.Name = "DataViewController";
-            this.Size = new System.Drawing.Size(324, 203);
+            this.Size = new System.Drawing.Size(437, 296);
+            ((System.ComponentModel.ISupportInitialize) (this.dataGrid1)).EndInit();
             this.ResumeLayout(false);
         }
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGrid dataGrid1;
 
         #endregion
     }
