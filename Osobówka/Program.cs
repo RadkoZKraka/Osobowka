@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Osobówka.Lib;
 
 namespace Osobówka
 {
@@ -25,6 +26,8 @@ namespace Osobówka
             var mainPanel = new MainViewController();
 
             Application.Run(new Form1(mainPanel));
+            var data = new ReadDataFromSQL();
+            
         }
     }
 }
